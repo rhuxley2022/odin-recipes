@@ -1,0 +1,42 @@
+.bgr {
+    background-color: lightgreen;
+}
+
+.bgr.main {
+    text-align: center;  
+}
+
+.recipe-list{
+    list-style-type: none;
+}
+.recipe-list > li > a {
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+.heading1, .heading2, .heading3 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(180, 25%, 25%);
+    font-weight: 800;
+}
+
+.heading1 {
+    font-size: 60px;
+}
+
+.heading2 {
+    font-size: 40px;
+}
+
+.heading3 {
+    font-size: 30px;
+}
+
+.bgr > p, .bgr > ul > li, .bgr > ol > li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color:rgb(178, 34, 34)
+}
+
